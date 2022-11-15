@@ -1,0 +1,25 @@
+
+ mkdir 4d7           ----- make directory folder
+
+ pwd                 ----- to check in which folder you are
+
+ ls
+
+ cd 4d7              ---- select the folder
+
+ wget https://raspberrytips.nl/files/tm1637.py           ------ download files
+
+ ls
+
+ wget https://raspberrytips.nl/files/47digitclock.py     ----- import program file
+
+ sudo python 47digitclock.py     ...... Run the program and output is generated
+
+
+
+connections................
+TM1637 Board Pin        Function RPI      Physical Pin     Raspberry Function
+GND                       Ground              14                   GND
+VCC                      + 5V Power            4                    5V  
+DI0                       Data In             18                   GPIO 24
+CLK                       Clock               16                  GPIO 23
